@@ -1,4 +1,7 @@
 # https://community.synopsys.com/s/article/Coverity-Integrations-GitHub-with-Self-Hosted-Runners
+# https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners
+
+# Need to make docker image contain coverity analysis and then point to docker hub where image is uploaded
 
 name: Coverity
 on:
