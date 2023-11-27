@@ -3,7 +3,7 @@
 
 # Need to make docker image contain coverity analysis and then point to docker hub where image is uploaded
 
-name: Coverity
+name: Coverity Self Hosted
 on:
   push:
     branches: [ master ]
